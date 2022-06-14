@@ -12,4 +12,5 @@ class Post(models.Model):
     created_date = models.DateTimeField("Date created")
     published_date = models.DateTimeField("Date published")
  
+ 
     
