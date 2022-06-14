@@ -12,6 +12,4 @@ class Post(models.Model):
     created_date = models.DateTimeField("Date created")
     published_date = models.DateTimeField("Date published")
  
-    def __str__(self):
-        return self.title
     
